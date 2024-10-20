@@ -57,7 +57,7 @@ pip install -r requirements.txt
 ```
 ## 📝 Usage
 ⚡ Quick Start
-```bash
+```python
 from mcmc_samplers import MetropolisHastingsSampler, SamplerVisualizer
 import numpy as np
 
