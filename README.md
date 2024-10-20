@@ -23,18 +23,10 @@ A comprehensive implementation of Monte Carlo Markov Chain (MCMC) algorithms, fo
 - [Introduction](#-introduction)
 - [Features](#-features)
 - [Installation](#-installation)
-- [Requirements](#-requirements)
 - [Usage](#-usage)
   - [Quick Start](#-quick-start)
-  - [Examples](#-examples)
-    - [Sampling from a Univariate Distribution](#sampling-from-a-univariate-distribution)
-    - [Adaptive Metropolis-Hastings Sampling](#adaptive-metropolis-hastings-sampling)
-    - [Sampling from a Multivariate Distribution](#sampling-from-a-multivariate-distribution)
 - [Project Structure](#-project-structure)
-- [Contributing](#-contributing)
 - [License](#-license)
-- [Contact](#-contact)
-- [Acknowledgments](#-acknowledgments)
 - [Additional Notes](#-additional-notes)
 - [Enjoy!](#-enjoy)
 
@@ -99,3 +91,5 @@ SamplerVisualizer.plot_distribution(
 )
 
 ```
+## 📄 License
+This project is licensed under the terms of the MIT License. See the LICENSE file for details.
