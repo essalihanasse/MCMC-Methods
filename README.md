@@ -57,3 +57,48 @@ Clone the repository and install the required packages using `pip`:
 git clone https://github.com/essalihanasse/MCMC-Methods.git
 cd MCMC-Methods
 pip install -r requirements.txt
+```
+## 📝 Usage
+⚡ Quick Start
+```bash
+from mcmc_samplers import MetropolisHastingsSampler, SamplerVisualizer
+import numpy as np
+
+# Define the target distribution
+def target_distribution(x):
+    return 0.3 * np.exp(-0.5 * ((x - 2)/0.5)**2) + \
+           0.7 * np.exp(-0.5 * ((x + 2)/0.8)**2)
+
+# Define the proposal distribution
+def gaussian_proposal(x, scale):
+    return np.random.normal(loc=x, scale=scale)
+
+# Set parameters
+initial_state = 0.0
+num_samples = 5000
+burn_in = 1000
+proposal_params = {'scale': 1.0}
+
+# Instantiate and run the sampler
+sampler = MetropolisHastingsSampler(
+    target_distribution=target_distribution,
+    proposal_distribution=gaussian_proposal,
+    proposal_params=proposal_params
+)
+
+samples = sampler.sample(
+    initial_state=initial_state,
+    num_samples=num_samples,
+    burn_in=burn_in
+)
+
+print(f'Acceptance Rate: {sampler.acceptance_rate:.2%}')
+
+# Visualize the results
+SamplerVisualizer.plot_distribution(
+    samples=sampler.samples,
+    target_distribution=target_distribution,
+    title='Metropolis-Hastings Sampling'
+)
+
+```
