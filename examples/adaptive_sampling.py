@@ -1,3 +1,12 @@
+import sys
+import os
+
+# Add the parent directory to sys.path
+current_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(current_dir)
+sys.path.insert(0, parent_dir)
+
+
 from mcmc_samplers.adaptive_sampler import AdaptiveMetropolisHastingsSampler
 from mcmc_samplers.visualization import SamplerVisualizer
 import numpy as np
@@ -5,7 +14,6 @@ import numpy as np
 def target_distribution(x):
     return 0.3 * np.exp(-0.5 * ((x - 2) / 0.5) ** 2) + \
            0.7 * np.exp(-0.5 * ((x + 2) / 0.5) ** 2)
-
 # Set parameters
 initial_state = 0.0
 num_samples = 5000
