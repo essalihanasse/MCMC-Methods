@@ -5,7 +5,7 @@
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
 
 A comprehensive implementation of Monte Carlo Markov Chain (MCMC) algorithms, focusing on the **Metropolis-Hastings** algorithm and its advanced variants, all neatly organized into reusable and modular classes. Perfect for enthusiasts, students, and professionals looking to delve deep into the world of MCMC methods.
-This is a personal project, where i implement all the algorithms from <a name="my-custom-anchor-point" url="https://m-clark.github.io/docs/ld_mcmc/#preface"></a> 
+This is a personal project, where i implement all the algorithms from [https://m-clark.github.io/docs/ld_mcmc/#preface](Michael Clark's github)
 
 ---
 
