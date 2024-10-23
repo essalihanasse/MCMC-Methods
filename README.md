@@ -25,10 +25,7 @@ This is a personal project, where i implement all the algorithms from [documenta
 - [Installation](#-installation)
 - [Usage](#-usage)
   - [Quick Start](#-quick-start)
-- [Project Structure](#-project-structure)
 - [License](#-license)
-- [Additional Notes](#-additional-notes)
-- [Enjoy!](#-enjoy)
 
 ---
 
