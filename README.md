@@ -26,7 +26,7 @@ This is a personal project, where i implement all the algorithms from [documenta
 - [Usage](#-usage)
   - [Quick Start](#-quick-start)
 - [License](#-license)
-
+- [References](#-references)
 ---
 
 ## 🚀 Introduction
@@ -90,3 +90,19 @@ SamplerVisualizer.plot_distribution(
 ```
 ## 📄 License
 This project is licensed under the terms of the MIT License. See the LICENSE file for details.
+## 📖 References
+The code has been inspired by:
+- **Slice Sampling**  
+   the foundational work on slice sampling methods.
+
+  *Reference:*  
+  Neal, R. M. (2003). [Slice Sampling](http://www.cs.toronto.edu/~neal/publications.html#slice). *Annals of Statistics*, 31(3), 705-767.
+
+
+
+- **Hamiltonian Monte Carlo (HMC)**  
+  For a deeper understanding of Hamiltonian dynamics in MCMC, refer to the following resource:
+
+  *Reference:*  
+  Neal, R. M. (2011). [MCMC Using Hamiltonian Dynamics](https://www.cs.toronto.edu/~neal/publications.html#HMC). *Handbook of Markov Chain Monte Carlo*.
+
