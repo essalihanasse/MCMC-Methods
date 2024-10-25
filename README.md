@@ -96,7 +96,7 @@ The code has been inspired by:
    the foundational work on slice sampling methods.
 
   *Reference:*  
-  Neal, R. M. (2003). [Slice Sampling](http://www.cs.toronto.edu/~neal/publications.html#slice). *Annals of Statistics*, 31(3), 705-767.
+  Neal, R. M. (2003). Slice Sampling. *Annals of Statistics*, 31(3), 705-767.
 
 
 
@@ -104,5 +104,5 @@ The code has been inspired by:
   For a deeper understanding of Hamiltonian dynamics in MCMC, refer to the following resource:
 
   *Reference:*  
-  Neal, R. M. (2011). [MCMC Using Hamiltonian Dynamics](https://www.cs.toronto.edu/~neal/publications.html#HMC). *Handbook of Markov Chain Monte Carlo*.
+  Neal, R. M. (2011). MCMC Using Hamiltonian Dynamics. *Handbook of Markov Chain Monte Carlo*.
 
