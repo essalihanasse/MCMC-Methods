@@ -33,3 +33,7 @@ class SamplerVisualizer:
         plt.xlabel('Lag')
         plt.ylabel('Autocorrelation')
         plt.show()
+
+    @staticmethod
+    def animate(samples, target_distribution):
+        pass
